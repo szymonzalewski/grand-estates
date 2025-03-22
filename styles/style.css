@@ -442,3 +442,65 @@ body {
   margin: 5%;
   display: block;
 }
+
+@media screen and (min-width: 768px) {
+  .footer--container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .footer--div,
+  .footer--contact {
+    margin-bottom: 0;
+  }
+
+  .footer h3 {
+    font-size: 1.2rem;
+  }
+
+  .footer p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contact-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 5%;
+    margin: 5%;
+  }
+
+  .section--info,
+  .section--contact {
+    width: 45%;
+    margin-top: 10%;
+  }
+
+  .contact__form input {
+    width: 80%;
+    border: none;
+    margin-bottom: 5%;
+    height: 3rem;
+  }
+
+  .contact__form textarea {
+    width: 80%;
+    border: none;
+    margin-bottom: 5%;
+    height: 10rem;
+  }
+
+  .contact__button {
+    width: 40%;
+    height: 2rem;
+    background-color: rgb(24, 67, 153);
+    border: none;
+    color: white;
+    margin-bottom: 5%;
+    font-size: 1rem;
+  }
+}
