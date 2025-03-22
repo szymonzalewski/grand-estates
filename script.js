@@ -1,3 +1,8 @@
+function toggleMenu() {
+  let menu = document.getElementById('menu')
+  menu.classList.toggle('header__ul--show')
+}
+
 document
   .getElementById('realization--show')
   .addEventListener('click', function () {
