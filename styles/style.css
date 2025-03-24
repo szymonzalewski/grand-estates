@@ -580,4 +580,14 @@ body {
   .header__button {
     display: none;
   }
+
+  .offers-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .offers-wrapper section {
+    flex: 1;
+  }
 }
