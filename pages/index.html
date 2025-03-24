@@ -18,28 +18,32 @@
   <body>
     <header class="header--main">
       <div class="header--container">
-        <img
-          src="../images/logo_no_background_cleaned.png"
-          alt="logo_png"
-          class="header--logo"
-        />
-        <h1 class="header__h1--company-name">Grand Estates</h1>
+        <div class="header--branding">
+          <img
+            src="../images/logo_no_background_cleaned.png"
+            alt="logo_png"
+            class="header--logo"
+          />
+          <h1 class="header__h1--company-name">Grand Estates</h1>
+        </div>
         <button class="header__button" onclick="toggleMenu()">
           <i class="fa fa-bars"></i>
         </button>
+        <nav class="header__nav">
+          <ul class="header__ul" id="menu">
+            <li class="header__li"><a href="#" class="header__a">Home</a></li>
+            <li class="header__li">
+              <a href="#" class="header__a">Realizacje</a>
+            </li>
+            <li class="header__li">
+              <a href="#" class="header__a">Kontakt</a>
+            </li>
+            <li class="header__li">
+              <a href="#" class="header__a">+48 530 95 70 70</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <nav class="header__nav">
-        <ul class="header__ul" id="menu">
-          <li class="header__li"><a href="#" class="header__a">Home</a></li>
-          <li class="header__li">
-            <a href="#" class="header__a">Realizacje</a>
-          </li>
-          <li class="header__li"><a href="#" class="header__a">Kontakt</a></li>
-          <li class="header__li">
-            <a href="#" class="header__a">+48 530 95 70 70</a>
-          </li>
-        </ul>
-      </nav>
     </header>
 
     <section class="section section--hero">
